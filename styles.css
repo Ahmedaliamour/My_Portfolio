@@ -1,59 +1,80 @@
 /* Reset some default styles */
-body, h1, h2, p, ul, li, a {
-    margin: 0;
-    padding: 0;
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
 }
 
 /* Apply a basic styling to the body */
 body {
-    font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 /* Navbar styling */
 #navbar {
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 10px;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
 }
 
 #navbar ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 #navbar a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* Welcome Section styling */
 #welcome-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
 }
 
 /* Projects Section styling */
 #projects {
-    padding: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+
+.coffee-menu {
+  border: 2px rgb(0, 136, 255) solid;
+  border-radius: 16px;
+  margin: 2%;
+  padding: 1.5%;
 }
 
 .project-tile {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .project-link {
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
-    background-color: #333;
-    color: white;
-    padding: 5px 10px;
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+}
+
+img {
+  width: 25%;
+  cursor: pointer;
 }
