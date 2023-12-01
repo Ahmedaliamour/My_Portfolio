@@ -57,6 +57,7 @@ body {
   border-radius: 16px;
   margin: 2%;
   padding: 1.5%;
+  width: 25%;
 }
 
 .project-tile {
@@ -77,4 +78,18 @@ body {
 img {
   width: 25%;
   cursor: pointer;
+}
+.Cat_Painting{
+  border: 2px rgb(0, 136, 255) solid;
+  border-radius: 16px;
+  margin: 2%;
+  padding: 1.5%;
+  width: 25%;
+}
+.Balance_sheet{
+  border: 2px rgb(0, 136, 255) solid;
+  border-radius: 16px;
+  margin: 2%;
+  padding: 1.5%;
+  width: 25%;
 }
