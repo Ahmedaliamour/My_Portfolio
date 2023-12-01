@@ -50,14 +50,28 @@ body {
   display: flex;
   flex-direction: row;
   padding: 1%;
+
+  @media (max-width:992px) and (min-width:320px){
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
 }
 
-.coffee-menu {
+.project_item_card {
   border: 2px rgb(0, 136, 255) solid;
   border-radius: 16px;
   margin: 2%;
   padding: 1.5%;
   width: 25%;
+
+  @media (max-width:992px) and (min-width:320px){
+    max-width: 96%;
+    width:96%;
+margin-left: 8%;
+margin-right: 8%;
+  }
 }
 
 .project-tile {
@@ -78,18 +92,4 @@ body {
 img {
   width: 25%;
   cursor: pointer;
-}
-.Cat_Painting{
-  border: 2px rgb(0, 136, 255) solid;
-  border-radius: 16px;
-  margin: 2%;
-  padding: 1.5%;
-  width: 25%;
-}
-.Balance_sheet{
-  border: 2px rgb(0, 136, 255) solid;
-  border-radius: 16px;
-  margin: 2%;
-  padding: 1.5%;
-  width: 25%;
 }
